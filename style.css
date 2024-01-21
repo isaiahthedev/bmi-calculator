@@ -1,4 +1,46 @@
 * {
     margin: 0;
     box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body {
+    background: #0a0e21;
+}
+#container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+#title {
+    color: white;
+    text-align: center;
+    padding: 30px 0px 10px 0px;
+    width: 100vw;
+}
+.square {
+    width: 40vw;
+    height: 35vw;
+    background-color: #13172b;
+    border: none;
+    color: white;
+    border-radius: 15px;
+    margin: 3vw;
+    margin-bottom: 4vw;
+    font-size: 1.5rem;
+}
+#height {
+    height: 35vw;
+    width: 87vw;
+    color: white;
+    background-color: #13172b;
+    border-radius: 15px;
+}
+#calculate {
+    background-color: #ce3058;
+    border: none;
+    color: white;
+    height: 15vw;
+    width: 87vw;
+    font-size: 1.75rem;
+    border-radius: 15px;
 }

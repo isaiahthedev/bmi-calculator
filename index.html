@@ -7,11 +7,28 @@
     <title>BMI Calculator</title>
 </head>
 <body>
-    <form id="bmiForm">
-        <label for="userInput">Enter something:</label>
-        <input type="text" id="userInput" name="userInput">
-        <button type="submit">Submit</button>
-    </form>
+    <div id="container">
+        <h1 id="title">BMI Calculator</h1>
+        <button id="male" class="square">Male</button>
+        <button id="female" class="square">Female</button>
+        <div id="height">
+            <p>Height</p>
+            <input type="slider" min="1" max="100" value="50" class="slider">
+        </div>
+        <div class="square">
+            <p>Weight</p>
+            <p class="number">70</p>
+            <button class="inc-btns">+</button>
+            <button class="inc-btns">-</button>
+        </div>
+        <div class="square">
+            <p>Age</p>
+            <p class="number">20</p>
+            <button class="inc-btns">+</button>
+            <button class="inc-btns">-</button>
+        </div>
+        <button id="calculate">Calculate</button>
+    </div>
     <script src="script.js"></script>
 </body>
 </html>

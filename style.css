@@ -44,3 +44,24 @@ body {
     font-size: 1.75rem;
     border-radius: 15px;
 }
+#calculate:hover {
+    opacity: 80%;
+}
+.inc-btns {
+    border: none;
+    border-radius: 50%;
+    height: 70px;
+    width: 70px;
+    color: white;
+    font-size: 3.25rem;
+    background-color: #47474e;
+}
+.inc-btns:hover {
+    opacity: 80%;
+}
+#male:hover {
+    opacity: 80%;
+}
+#female:hover {
+    opacity: 80%;
+}

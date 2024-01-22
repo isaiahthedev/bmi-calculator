@@ -19,7 +19,7 @@ body {
 }
 .square {
     width: 40vw;
-    height: 35vw;
+    height: 30vw;
     background-color: #13172b;
     border: none;
     color: white;
@@ -29,11 +29,16 @@ body {
     font-size: 1.5rem;
 }
 #height {
-    height: 35vw;
+    height: 30vw;
     width: 87vw;
     color: white;
     background-color: #13172b;
     border-radius: 15px;
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
 }
 #calculate {
     background-color: #ce3058;
@@ -43,6 +48,10 @@ body {
     width: 87vw;
     font-size: 1.75rem;
     border-radius: 15px;
+}
+p {
+    text-align: center;
+    width: 100%;
 }
 #calculate:hover {
     opacity: 80%;
@@ -64,4 +73,8 @@ body {
 }
 #female:hover {
     opacity: 80%;
+}
+.number {
+    font-size: 3.5rem;
+    font-weight: 600;
 }

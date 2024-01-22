@@ -5,17 +5,21 @@ const weightVal = document.getElementById("weight-num");
 const ageValInc = document.getElementById("age-inc");
 const ageValDec = document.getElementById("age-dec");
 const ageVal = document.getElementById("age-num");
+const maleBtn = document.getElementById("male");
+const femaleBtn = document.getElementById("female");
 
 let height = heightSlider.value;
 let weight = weightVal.innerHTML;
 let age = ageVal.innerHTML;
 let gender = "Male";
+
 //height input/control
 const heightUpdate = () => {
     height = heightSlider.value;
 }
 
 heightSlider.addEventListener('change', heightUpdate);
+
 //weight input/control
 weightValInc.addEventListener('click', () => {
     if(weight < 500) {
@@ -29,6 +33,7 @@ weightValDec.addEventListener('click', () => {
     }
     weightVal.innerHTML = weight;
 });
+
 //age input/control
 ageValInc.addEventListener('click', () => {
     if(age < 120) {
@@ -42,3 +47,23 @@ ageValDec.addEventListener('click', () => {
     }
     ageVal.innerHTML = age;
 });
+
+//gender input/control
+const selected = "rgb(12, 15, 28)";
+const notSelected = "rgb(19, 23, 43)";
+maleBtn.style.backgroundColor = selected;
+femaleBtn.style.backgroundColor = notSelected;
+maleBtn.addEventListener("click", () => {
+    if(maleBtn.style.backgroundColor == notSelected) {
+        maleBtn.style.backgroundColor = selected;
+        femaleBtn.style.backgroundColor = notSelected;
+    }
+    gender = "Male";
+});
+femaleBtn.addEventListener("click", () => {
+    if(femaleBtn.style.backgroundColor == notSelected) {
+        femaleBtn.style.backgroundColor = selected;
+        maleBtn.style.backgroundColor = notSelected;
+    }
+    gender = "Female";
+})

@@ -35,15 +35,21 @@ body {
     font-size: 1.25rem;
     width: 100%;
     text-align: center;
+    opacity: 70%;
+    font-weight: 600;
 }
 .numbers {
-    font-size: 2rem;
+    font-size: 3rem;
     font-weight: 600;
     width: 100%;
     text-align: center;
 }
+.mini {
+    font-size: 1rem;
+    opacity: 70%;
+}
 #height-block {
-    height: 180px;
+    height: 150px;
     width: 87%;
     color: white;
     background-color: #13172b;
@@ -58,7 +64,7 @@ body {
 }
 .small-blocks {
     width: 40%;
-    height: 130px;
+    height: 150px;
     background-color: #13172b;
     color: white;
     border-radius: 15px;
@@ -67,12 +73,13 @@ body {
     flex-wrap: wrap;
     align-items: center;
     border: none;
+    padding: 10px 0 10px 0;
 }
 .inc-btns {
     border: none;
     border-radius: 50%;
-    height: 40%;
-    width: 25%;
+    height: 55px;
+    width: 55px;
     color: white;
     background-color: #47474e;
 }

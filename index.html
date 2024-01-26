@@ -3,33 +3,44 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
     <title>BMI Calculator</title>
 </head>
 <body>
-    <div id="container">
-        <h1 id="title">BMI Calculator</h1>
-        <button id="male" class="square">Male</button>
-        <button id="female" class="square">Female</button>
-        <div id="height">
-            <p>Height</p>
-            <p id="height-num" class="number">50</p>
-            <input id="height-num" type="slider" min="1" max="100" value="50" class="slider">
+    <!--bmi calculator-->
+    <div id="bmi-container">
+
+        <h1 id="bmi-title">BMI Calculator</h1>
+        <button id="male" class="small-blocks"><i class="bi bi-gender-male"></i>Male</button>
+        <button id="female" class="small-blocks">Female</button>
+        
+        <div id="height-block">
+            <p id="height-title">Height</p>
+            <div id="height-num-block"><p id="height-num" class="number">50</p></div>
+            <input id="height-slider" type="slider" min="1" max="100" value="50" class="slider">
         </div>
-        <div class="square">
+        
+        <div class="small-blocks">
             <p>Weight</p>
             <p id="weight-num" class="number">70</p>
-            <button id="weight-inc" class="inc-btns">+</button>
-            <button id="weight-dec" class="inc-btns">-</button>
+            <button id="weight-inc" class="inc-btns"><i class="bi bi-plus-lg"></i></button>
+            <button id="weight-dec" class="inc-btns"><i class="bi bi-dash-lg"></i></button>
         </div>
-        <div class="square">
+        
+        <div class="small-blocks">
             <p>Age</p>
             <p id="age-num" class="number">20</p>
-            <button id="age-inc" class="inc-btns">+</button>
-            <button id="age-dec" class="inc-btns">-</button>
+            <button id="age-inc" class="inc-btns"><p id="pm">+</p></button>
+            <button id="age-dec" class="inc-btns"><p id="pm">-</p></button>
         </div>
+        
         <button id="calculate">Calculate</button>
+
     </div>
+
+    <!--scripts-->
     <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 </body>
 </html>

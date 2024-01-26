@@ -6,31 +6,32 @@
 body {
     background: #0a0e21;
 }
-#container {
+#bmi-container {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    border: 1px solid green;
+    height: 750px;
+    max-width: 500px;
 }
-#title {
+#bmi-title {
     color: white;
     text-align: center;
     padding: 30px 0px 10px 0px;
     width: 100vw;
 }
-.square {
-    width: 40vw;
-    height: 30vw;
+.small-blocks {
+    width: 40%;
+    height: 130px;
     background-color: #13172b;
     border: none;
     color: white;
     border-radius: 15px;
-    margin: 3vw;
-    margin-bottom: 4vw;
     font-size: 1.5rem;
 }
-#height {
-    height: 30vw;
-    width: 87vw;
+#height-block {
+    height: 180px;
+    width: 87%;
     color: white;
     background-color: #13172b;
     border-radius: 15px;
@@ -40,30 +41,38 @@ body {
     flex-wrap: wrap;
     text-align: center;
 }
-#calculate {
-    background-color: #ce3058;
-    border: none;
-    color: white;
-    height: 15vw;
-    width: 87vw;
-    font-size: 1.75rem;
-    border-radius: 15px;
+#height-title {
+    height: 35px;
 }
-p {
-    text-align: center;
+#height-num-block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 100%;
+    border: 1px solid rgb(0, 255, 98);
+}
+#height-num {
+    border: 1px solid red;
+    height: 100%;
+}
+#height-slider {
+    border: 1px solid yellow;
+}
+#pm {
+    display: absolute;
 }
 #calculate:hover {
     opacity: 80%;
 }
 .inc-btns {
+    display: relative;
     border: none;
     border-radius: 50%;
-    height: 70px;
-    width: 70px;
+    height: 40%;
+    width: 25%;
     color: white;
-    font-size: 3.25rem;
     background-color: #47474e;
+    border: 1px solid blue;
 }
 .inc-btns:hover {
     opacity: 80%;
@@ -75,6 +84,18 @@ p {
     opacity: 80%;
 }
 .number {
-    font-size: 3.5rem;
+    position: relative;
+    font-size: 3rem;
     font-weight: 600;
+    height: 40%;
+    top: -15px;
+}
+#calculate {
+    background-color: #ce3058;
+    border: none;
+    color: white;
+    height: 15vw;
+    width: 87vw;
+    font-size: 1.75rem;
+    border-radius: 15px;
 }

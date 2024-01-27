@@ -16,16 +16,18 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    height: 100vh;
 }
 #bmi-container {
     border-radius: 15px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    height: 750px;
+    min-height: 640px;
+    max-height: 700px;
+    height: 100vh;
     max-width: 500px;
     background: #0a0e21;
-    margin-top: 5px;
 }
 #bmi-title {
     color: white;

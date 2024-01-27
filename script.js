@@ -11,6 +11,8 @@ const femaleBtn = document.getElementById("female");
 const calculate = document.getElementById("calculate");
 
 let height = heightSlider.value;
+let feet = 0;
+let inches = 0;
 let weight = weightVal.innerHTML;
 let age = ageVal.innerHTML;
 let gender = "Male";
@@ -39,7 +41,10 @@ femaleBtn.addEventListener("click", () => {
 //height input/control
 const heightUpdate = () => {
     height = heightSlider.value;
-    heightVal.innerText = height + "'";
+    feet = height / 12;
+    feet = Math.floor(feet);
+    inches = height - (feet * 12);
+    heightVal.innerText = feet + "'" + inches + '"';
 }
 
 heightSlider.addEventListener('change', heightUpdate);

@@ -75,12 +75,12 @@ body {
     background: #d3d3d3;
     border-radius: 3px;
     outline: none;
-    opacity: 0.7;
+    opacity: 1;
     -webkit-transition: .2s;
     transition: opacity .2s;
 }
 .slider:hover {
-    opacity: 1;
+    border: 1px solid white;
   }
   .slider::-webkit-slider-thumb {
     border-radius: 50%;

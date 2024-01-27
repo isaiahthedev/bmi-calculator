@@ -4,7 +4,7 @@ This web application is to calculate ones body mass index. This is built with va
 
 ## Project Preview 
 
-<img align="center" src="https://i.postimg.cc/Nj4Hymxf/Screenshot.png" alt="BMI Calculator" width="300" />
+<img align="center" src="https://i.postimg.cc/t40w9Ynp/Screenshot-1.png" alt="BMI Calculator" width="300" />
 
 ## BMI Chart
 <br />

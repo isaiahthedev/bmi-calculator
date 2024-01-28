@@ -8,24 +8,27 @@
     <title>BMI Calculator</title>
 </head>
 <body>
+    
     <!--bmi calculator-->
     <div id="bmi-container">
-
+        <!--app title-->
         <h1 id="bmi-title">BMI Calculator</h1>
+        <!--gender select-->
         <button id="male" class="small-blocks"><svg xmlns="http://www.w3.org/2000/svg" width="70" height="70" fill="currentColor" class="bi bi-gender-male" viewBox="0 0 16 16">
             <path fill-rule="evenodd" d="M9.5 2a.5.5 0 0 1 0-1h5a.5.5 0 0 1 .5.5v5a.5.5 0 0 1-1 0V2.707L9.871 6.836a5 5 0 1 1-.707-.707L13.293 2zM6 6a4 4 0 1 0 0 8 4 4 0 0 0 0-8"/>
           </svg><p class="titles">Male</p></button>
         <button id="female" class="small-blocks"><svg xmlns="http://www.w3.org/2000/svg" width="70" height="70" fill="currentColor" class="bi bi-gender-female" viewBox="0 0 16 16">
             <path fill-rule="evenodd" d="M8 1a4 4 0 1 0 0 8 4 4 0 0 0 0-8M3 5a5 5 0 1 1 5.5 4.975V12h2a.5.5 0 0 1 0 1h-2v2.5a.5.5 0 0 1-1 0V13h-2a.5.5 0 0 1 0-1h2V9.975A5 5 0 0 1 3 5"/>
           </svg><p class="titles">Female</p></button>
-        
+        <!--height select-->
         <div id="height-block">
             <p id="height-title" class="titles">Height</p>
             <p id="height-num" class="numbers">5'6"</p>
             <input type="range" min="48" max="84" value="66" class="slider" id="height-slider">
         </div>
-        
+        <!--weight and age-->
         <div class="small-blocks">
+            <!--weight select-->
             <p id="weight-title" class="titles">Weight</p>
             <p class="numbers"><span id="weight-num">140</span><span class="mini"> lbs</span></p>
             <button id="weight-dec" class="inc-btns">
@@ -39,7 +42,7 @@
               </svg>
             </button>
         </div>
-        
+        <!--age select-->
         <div class="small-blocks">
             <p id="age-title" class="titles">Age</p>
             <p id="age-num" class="numbers">20</p>
@@ -54,12 +57,12 @@
               </svg>
             </button>
         </div>
-        
+        <!--calculate button-->
         <button id="calculate">Calculate</button>
 
     </div>
 
-    <!--scripts-->
+    <!--script-->
     <script src="script.js"></script>
     
 </body>

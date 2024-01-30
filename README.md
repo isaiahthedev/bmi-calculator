@@ -1,12 +1,12 @@
 # BMI Calculator
 
-This web application is to calculate ones body mass index. This is built with vanilla HTML CSS and JavaScript to test and learn JavaScript DOM manipulation. Currently this is a work in progress. Right now if you click calculate, it just console logs the calculated BMI.
+This web application is to calculate one's body mass index. This project was built using vanilla HTML CSS and JavaScript to test my JavaScript DOM manipulation skills.
 
 ## Project Preview 
 
 <img align="center" src="https://i.postimg.cc/t40w9Ynp/Screenshot-1.png" alt="BMI Calculator" width="300" />
 
-design by [Ruben Vaalt](https://dribbble.com/shots/4585382-Simple-BMI-Calculator)
+UI design inspired by [Ruben Vaalt](https://dribbble.com/shots/4585382-Simple-BMI-Calculator)
 
 ## BMI Chart
 <br />

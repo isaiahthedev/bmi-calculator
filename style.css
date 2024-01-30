@@ -70,6 +70,36 @@ body {
     flex-wrap: wrap;
     padding: 10px 0 10px 0;
 }
+#result-block {
+    height: 450px;
+    width: 87%;
+    color: white;
+    background-color: #13172b;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 10px 0 10px 0;
+}
+#result-title {
+    color: white;
+    font-size: 3.5rem;
+}
+#result-block-title {
+    color: rgb(83, 184, 83);
+    font-size: 1.5rem;
+    opacity: 1;
+}
+#result-num {
+    font-size: 5rem;
+    font-weight: 800;
+    width: 100%;
+    text-align: center;
+}
+#result-text {
+    font-size: 1.5rem;
+}
 .slider {
     -webkit-appearance: none;
     width: 85%;

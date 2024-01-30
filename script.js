@@ -17,6 +17,7 @@ let weight = weightVal.innerHTML;
 let age = ageVal.innerHTML;
 let gender = "Male";
 let BMI = 0;
+let currentPage = "index.html";
 
 //gender input/control
 const selected = "rgb(12, 15, 28)";
@@ -80,5 +81,6 @@ ageValDec.addEventListener('click', () => {
 //calculate button
 calculate.addEventListener('click', () => {
     BMI = weight/(height*height) * 703
-    console.log('Your BMI is ' + BMI)
+    localStorage.setItem("BMI", BMI);
+    location.href = "result.html"
 })

@@ -72,7 +72,7 @@ ageValInc.addEventListener('click', () => {
     ageVal.innerHTML = age;
 });
 ageValDec.addEventListener('click', () => {
-    if(age > 1) {
+    if(age > 18) {
         age--;
     }
     ageVal.innerHTML = age;

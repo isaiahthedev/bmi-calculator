@@ -1,15 +1,21 @@
 # BMI Calculator
 
-This web application is to calculate one's body mass index. This project was built using vanilla HTML CSS and JavaScript to test my JavaScript DOM manipulation skills.
+Welcome to the BMI Calculator, a user-friendly web application designed to help you calculate your Body Mass Index (BMI). Built with a blend of vanilla HTML, CSS, and JavaScript, this tool not only provides valuable health insights but also showcases my strong skills in JavaScript DOM manipulation.
 
-## Project Preview 
+## Try It Now!
 
-<img align="center" src="https://i.postimg.cc/t40w9Ynp/Screenshot-1.png" alt="BMI Calculator" width="300" />
+🚀 [**Launch the BMI Calculator**](https://isaiahthedev.github.io/bmi-calculator/)
 
-UI design inspired by [Ruben Vaalt](https://dribbble.com/shots/4585382-Simple-BMI-Calculator)
+## Get a Glimpse
 
-## BMI Chart
-<br />
-<img align="center" src="https://i.insider.com/57d291cadd0895c6308b46b0?width=1000&format=jpeg&auto=webp" alt="BMI Chart" width="600" />
+![BMI Calculator Preview](https://i.postimg.cc/t40w9Ynp/Screenshot-1.png)
 
+Inspired by the UI design expertise of [Ruben Vaalt](https://dribbble.com/shots/4585382-Simple-BMI-Calculator), this application offers a sleek and intuitive user experience.
 
+## Understand Your Health
+
+![BMI Chart](https://i.insider.com/57d291cadd0895c6308b46b0?width=1000&format=jpeg&auto=webp)
+
+Explore the BMI chart to gain insights into your health and well-being. Use this tool to make informed decisions about your fitness journey.
+
+Experience the BMI Calculator today and take a step towards a healthier you!

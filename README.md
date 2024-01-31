@@ -10,10 +10,8 @@ Welcome to the BMI Calculator, a user-friendly web application designed to help 
 
 Watch this short video to see the BMI Calculator in action:
 
-<video width="320" height="240" controls>
-  <source src="https://github.com/isaiahthedev/bmi-calculator/raw/master/preview.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
+[Preview](https://github.com/isaiahthedev/bmi-calculator/assets/154280901/86369024-6055-4956-b488-7fb71cb674d6)
+
 
 Inspired by the UI design expertise of [Ruben Vaalt](https://dribbble.com/shots/4585382-Simple-BMI-Calculator), this application offers a sleek and intuitive user experience.
 

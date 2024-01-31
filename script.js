@@ -48,7 +48,7 @@ const heightUpdate = () => {
     heightVal.innerText = feet + "'" + inches + '"';
 }
 
-heightSlider.addEventListener('change', heightUpdate);
+heightSlider.addEventListener('input', heightUpdate);
 
 //weight input/control
 weightValInc.addEventListener('click', () => {

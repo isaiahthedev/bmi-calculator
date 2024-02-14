@@ -19,6 +19,6 @@ Inspired by the UI design expertise of [Ruben Vaalt](https://dribbble.com/shots/
 
 ![BMI Chart](https://i.insider.com/57d291cadd0895c6308b46b0?width=1000&format=jpeg&auto=webp)
 
-Explore the BMI chart to gain insights into your health and well-being. Use this tool to make informed decisions about your fitness journey.
+Check out the BMI chart to see where you fall. Use this tool to compare where you are currently to where you want to be.
 
 Check your BMI today and take a step towards a healthier you!

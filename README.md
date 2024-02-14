@@ -21,4 +21,4 @@ Inspired by the UI design expertise of [Ruben Vaalt](https://dribbble.com/shots/
 
 Explore the BMI chart to gain insights into your health and well-being. Use this tool to make informed decisions about your fitness journey.
 
-Experience the BMI Calculator today and take a step towards a healthier you!
+Check your BMI today and take a step towards a healthier you!

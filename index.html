@@ -11,8 +11,12 @@
     
     <!--bmi calculator-->
     <div id="bmi-container">
+			<div id="bmi-top">
         <!--app title-->
-        <h1 id="bmi-title">BMI Calculator</h1>
+				<h1 id="bmi-title">BMI Calculator</h1>
+        <!--button toggle unit system-->
+					<button id="btn-unit" class="btn"></button>
+			</div>
         <!--gender select-->
         <button id="male" class="small-blocks"><svg xmlns="http://www.w3.org/2000/svg" width="70" height="70" fill="currentColor" class="bi bi-gender-male" viewBox="0 0 16 16">
             <path fill-rule="evenodd" d="M9.5 2a.5.5 0 0 1 0-1h5a.5.5 0 0 1 .5.5v5a.5.5 0 0 1-1 0V2.707L9.871 6.836a5 5 0 1 1-.707-.707L13.293 2zM6 6a4 4 0 1 0 0 8 4 4 0 0 0 0-8"/>
@@ -29,7 +33,7 @@
         <!--weight select-->
         <div class="small-blocks">
             <p id="weight-title" class="titles">Weight</p>
-            <p class="numbers"><span id="weight-num">140</span><span class="mini"> lbs</span></p>
+            <p class="numbers"><span id="weight-num">140</span><span id="weight-unit" class="mini"> lbs</span></p>
             <button id="weight-dec" class="inc-btns">
                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-dash-lg" viewBox="0 0 16 16">
                   <path fill-rule="evenodd" d="M2 8a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1h-11A.5.5 0 0 1 2 8"/>

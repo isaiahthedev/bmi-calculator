@@ -50,6 +50,9 @@ body {
   border-radius: 15px;
   padding: 0.25rem 0.5rem;
 }
+#btn-unit:hover {
+  opacity: 80%;
+}
 #male:hover {
   opacity: 80%;
 }

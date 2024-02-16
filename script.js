@@ -1,3 +1,4 @@
+//create variables for DOM elements
 const unitSystemBtn = document.getElementById("btn-unit");
 const heightSlider = document.getElementById("height-slider");
 const heightVal = document.getElementById("height-num");
@@ -12,6 +13,7 @@ const maleBtn = document.getElementById("male");
 const femaleBtn = document.getElementById("female");
 const calculate = document.getElementById("calculate");
 
+//initialize main variables
 let height = heightSlider.value;
 let weight = weightVal.innerHTML;
 let age = ageVal.innerHTML;
@@ -82,12 +84,14 @@ heightSlider.addEventListener('input', heightUpdate);
 weightValInc.addEventListener('click', () => {
     if(weight < 500) {
         weight++;
+        weight = Math.floor(weight);
     }
     weightVal.innerHTML = weight;
 });
 weightValDec.addEventListener('click', () => {
     if(weight > 1) {
         weight--;
+        weight = Math.floor(weight);
     }
     weightVal.innerHTML = weight;
 });
